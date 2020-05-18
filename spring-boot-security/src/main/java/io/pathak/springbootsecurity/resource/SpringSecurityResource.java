@@ -9,6 +9,6 @@ public class SpringSecurityResource {
 	
 	@RequestMapping("/")
 	public String home() {
-		return "<h1>Welcome User</h1>";
+		return "<h1>Welcome</h1>";
 	}
 }
